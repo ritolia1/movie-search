@@ -89,5 +89,5 @@ function action() {
 
 //Will move window to movie-detail.html file with movie id.
 function reply_click(clicked_id){
-    window.location="movie-details.html?"+clicked_id;
+    window.open("movie-details.html?"+clicked_id);
 }
