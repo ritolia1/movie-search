@@ -16,7 +16,7 @@ router.get('/list/:year/:page', function(req, res) {
       logger.info("Sucessfully returned the list of movies of year: "+req.params.year+" and page number:"+req.params.page);
       res.json(body);
     }
-  	else{
+    else {
       logger.error("Error while making the request of year: "+req.params.year+" and page number: "+req.params.page);
     }
   });
@@ -25,14 +25,14 @@ router.get('/list/:year/:page', function(req, res) {
 //T list details of specific movie based on movie name.
 router.get('/specific/:name', function(req, res) {
   request('http://api.themoviedb.org/3/search/movie?query='+req.params.name+'&api_key='+config.api_key, function(error, response, body){
-  	if(!error){
-       logger.info("Sucessfully returned the movies detail of : "+req.params.name);
-  		res.json(body);
-    }
-  	else{
-      logger.error("Error while making the request of movie: "+req.params.name);
-    }
-  });
+  	if(!error) {
+     logger.info("Sucessfully returned the movies detail of : "+req.params.name);
+     res.json(body);
+   }
+   else{
+    logger.error("Error while making the request of movie: "+req.params.name);
+  }
+});
 });
 
 //List imdb details for specific movie.
@@ -40,12 +40,12 @@ router.get('/imdb/:name',function(req,res){
 	request('http://www.omdbapi.com/?t='+req.params.name+'&y=&plot=short&r=json',function(error,response,body){
 		if(!error){
       logger.info("Sucessfully returned the movies detail from imdb api of : "+req.params.name);
-			res.json(body);
+      res.json(body);
     }
-		else{
-			logger.error("Error while making the request from imdb api of movie: "+req.params.name);
-    }
-	})
+    else {
+     logger.error("Error while making the request from imdb api of movie: "+req.params.name);
+   }
+ })
 })
 
 
