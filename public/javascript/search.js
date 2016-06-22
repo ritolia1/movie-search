@@ -21,6 +21,12 @@ $(document).ready(function() {
     pagecount++;
     action();
   });
+
+  $("#text_area").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#search_btn").click();
+    }
+});
 });
 
 //Will fetch list of movie from web application and render it to card div in index.html file.
