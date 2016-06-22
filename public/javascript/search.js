@@ -38,7 +38,7 @@ function action() {
                   "<img style=\"width:100%\" src=\"http://image.tmdb.org/t/p/w500/"+obj.results[i].poster_path+"class=\"doc_avatar\" >"+
                 "</div>"+
                 "<div class=\"col-sm-9\">"+
-                  "<table class=\"table table-bordered\">"+
+                  "<table class=\"table table-striped table-responsive\" style=\"float:right\">"+
                       "<tbody>"+
                         "<tr>"+
                           "<td>Original Title:</td>"+
