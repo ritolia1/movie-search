@@ -1,0 +1,16 @@
+.search_bar{
+	margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#card{
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.page_button{
+	margin-top: 20px;
+}

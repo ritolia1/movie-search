@@ -1,0 +1,17 @@
+{
+  "name": "movie-search",
+  "version": "1.0.0",
+  "description": "Get the movie details.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "mohit ritolia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "log4js": "^0.6.37",
+    "request": "^2.72.0"
+  }
+}

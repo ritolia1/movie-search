@@ -1,0 +1,106 @@
+[2016-06-22 13:30:11.534] [INFO] route - Sucessfully returned the list of movies2010
+[2016-06-22 14:07:31.947] [INFO] route - Sucessfully returned the list of movies of year 2010and page number:1
+[2016-06-22 14:08:33.304] [INFO] route - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:08:42.359] [INFO] route - Sucessfully returned the list of movies of year: 2010 and page number:2
+[2016-06-22 14:10:43.862] [INFO] route - Sucessfully returned the list of movies of year: 2004 and page number:1
+[2016-06-22 14:10:46.943] [INFO] route - Sucessfully returned the movies detail of : Zootopia
+[2016-06-22 14:12:59.618] [INFO] route - Sucessfully returned the movies detail of : Zootopia
+[2016-06-22 14:12:59.730] [INFO] route - Sucessfully returned the movies detail from imdb api of : Zootopia
+[2016-06-22 14:13:13.468] [INFO] route - Sucessfully returned the list of movies of year: 2005 and page number:1
+[2016-06-22 14:13:16.532] [INFO] route - Sucessfully returned the movies detail of : Zootopia
+[2016-06-22 14:13:16.635] [INFO] route - Sucessfully returned the movies detail from imdb api of : Zootopia
+[2016-06-22 14:13:25.137] [INFO] route - Sucessfully returned the list of movies of year: 2005 and page number:1
+[2016-06-22 14:13:27.902] [INFO] route - Sucessfully returned the movies detail of : Warcraft
+[2016-06-22 14:13:28.540] [INFO] route - Sucessfully returned the movies detail from imdb api of : Warcraft
+[2016-06-22 14:15:39.066] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:15:48.533] [INFO] route - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:15:51.981] [INFO] route - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:15:52.904] [INFO] route - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:18:19.885] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:18:26.547] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:18:34.828] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:18:40.432] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:2
+[2016-06-22 14:18:45.569] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:18:48.439] [INFO] route.js - Sucessfully returned the movies detail of : Zootopia
+[2016-06-22 14:18:48.551] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : Zootopia
+[2016-06-22 14:18:59.072] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:19:07.982] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:2
+[2016-06-22 14:19:12.173] [INFO] route.js - Sucessfully returned the movies detail of : Jupiter Ascending
+[2016-06-22 14:19:13.013] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : Jupiter Ascending
+[2016-06-22 14:20:16.733] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:20:20.537] [INFO] route.js - Sucessfully returned the movies detail of : Jupiter Ascending
+[2016-06-22 14:20:20.654] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : Jupiter Ascending
+[2016-06-22 14:23:42.595] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:23:47.248] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:23:47.264] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:23:51.481] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:24:17.432] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:24:23.282] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:24:28.653] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:24:30.791] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:24:31.046] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:25:59.689] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:26:02.945] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:26:06.855] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:26:08.272] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:26:08.399] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:26:12.466] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:26:12.578] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:26:51.634] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:26:57.087] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:26:57.199] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:27:18.410] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:27:21.277] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:27:21.401] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:27:45.576] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:27:47.716] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:27:48.321] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:29:48.723] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:29:51.244] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:29:51.652] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:30:13.082] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:30:16.106] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:30:16.225] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:34:22.171] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:34:22.286] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:34:43.725] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:34:43.829] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:36:52.087] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:36:52.298] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:37:41.879] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:37:45.033] [INFO] route.js - Sucessfully returned the movies detail of : The Conjuring 2
+[2016-06-22 14:37:45.179] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : The Conjuring 2
+[2016-06-22 14:37:50.148] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:37:54.072] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:37:55.649] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:37:55.788] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:39:18.033] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:39:23.242] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:48:55.269] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:49:00.222] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:49:06.625] [INFO] route.js - Sucessfully returned the list of movies of year: 2010 and page number:1
+[2016-06-22 14:49:08.158] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:49:08.462] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:55:14.396] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:55:17.358] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:55:22.469] [INFO] route.js - Sucessfully returned the list of movies of year: 2001 and page number:1
+[2016-06-22 14:55:32.478] [INFO] route.js - Sucessfully returned the list of movies of year: 1993 and page number:1
+[2016-06-22 14:55:37.422] [INFO] route.js - Sucessfully returned the list of movies of year: 1993 and page number:1
+[2016-06-22 14:55:47.289] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 14:55:47.566] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 14:59:00.371] [INFO] app.js - Listening to port 8090
+[2016-06-22 14:59:06.045] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 14:59:10.296] [INFO] route.js - Sucessfully returned the list of movies of year: 2001 and page number:1
+[2016-06-22 15:01:38.900] [INFO] app.js - Listening to port 8090
+[2016-06-22 15:01:42.461] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 15:01:49.113] [INFO] route.js - Sucessfully returned the list of movies of year: 2011 and page number:1
+[2016-06-22 15:03:16.938] [INFO] app.js - Listening to port 8090
+[2016-06-22 15:03:20.017] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 15:03:30.181] [INFO] route.js - Sucessfully returned the movies detail of : X-Men: Apocalypse
+[2016-06-22 15:03:30.424] [INFO] route.js - Sucessfully returned the movies detail from imdb api of : X-Men: Apocalypse
+[2016-06-22 15:03:44.442] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 15:04:09.745] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 15:04:32.350] [INFO] app.js - Listening to port 8090
+[2016-06-22 15:04:36.136] [INFO] index.js - Sucessfully returned the home page
+[2016-06-22 15:06:01.214] [INFO] app.js - Listening to port 8090
+[2016-06-22 15:06:04.822] [INFO] index.js - Sucessfully returned the home page
