@@ -76,7 +76,16 @@ function action() {
           } 
         $("#card").html(searchResultHTML);
     });    
-  };
+  }
+  else{
+    //alert("Please enter the Year");
+    var searchResultHTML = "";
+    searchResultHTML+="<div class=\"alert\" style=\"margin-left:30%;margin-right:30%\">"+
+                      "<span class=\"closebtn\" onclick=\"this.parentElement.style.display='none';\">&times;</span> "+
+                      "Please enter the Year."+
+                      "</div>";
+    $("#card").html(searchResultHTML);
+    }
 }
 
 //Will move window to movie-detail.html file with movie id.
