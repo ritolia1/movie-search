@@ -36,8 +36,9 @@ function action() {
   if (item != "") {
      var searchResultHTML = "";
       $.getJSON(link, function(response) {
-          for(var i=0;i<20;i++){
-            var obj=(JSON.parse(response));
+        var obj=(JSON.parse(response));
+        console.log(obj);
+          for(var i=0;i<obj.results.length;i++){
             searchResultHTML+="<div class=\"row\">"+
               "<div class=\"col-sm-6\" style=\"margin-left:25%;border:1px blue\" id="+obj.results[i].original_title.replace(/[\s]/g, '+')+" onClick=\"reply_click(this.id)\" >"+
                 "<div class=\"col-sm-3\">"+
