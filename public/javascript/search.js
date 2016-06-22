@@ -42,7 +42,7 @@ function action() {
             searchResultHTML+="<div class=\"row\">"+
               "<div class=\"col-sm-6\" style=\"margin-left:25%;border:1px blue\" id="+obj.results[i].original_title.replace(/[\s]/g, '+')+" onClick=\"reply_click(this.id)\" >"+
                 "<div class=\"col-sm-3\">"+
-                  "<img style=\"width:100%\" src=\"http://image.tmdb.org/t/p/w500/"+obj.results[i].poster_path+"class=\"doc_avatar\" >"+
+                  "<img style=\"width:100%;outline: 5px solid black;\" src=\"http://image.tmdb.org/t/p/w500/"+obj.results[i].poster_path+"class=\"doc_avatar\" >"+
                 "</div>"+
                 "<div class=\"col-sm-9\">"+
                   "<table class=\"table table-striped table-responsive\" style=\"float:right\">"+
