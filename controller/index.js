@@ -12,7 +12,7 @@ var appDir = path.dirname(require.main.filename);
 router.use('/movie/', require('./route'))
 
 router.get('/', function(req, res) {
-	logger.info("Sucessfully returned the home page");
+	logger.info('Sucessfully returned the home page');
 	res.sendFile(appDir+'/view/index.html');
 });
 

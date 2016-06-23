@@ -1,19 +1,17 @@
-.image_bar{
-	margin-top: 20px;
-	margin-left: 25%;
-	margin-right: 25%;
+.image-bar {
+	margin: 20px 25% 0px 25%;
 	width: 50%;
 }
 
-.text-area{
-	margin-left:20%;
-	margin-right:20%;
+.text-area {
+	margin: 0px 20% 0px 20%;
 }
 
 img {
 	width: 100%;
 	height: auto;
+	outline: 5px solid black;
 }
-.spacing{
-	margin-top: 20px;
+.spacing {
+	margin: 20px 0px 0px 0px;
 }

@@ -1,26 +1,29 @@
-.search_bar{
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+.search-bar {
+    margin: 100px auto 0px auto;
     width: 50%;
 }
 
-#card{
-	margin-top: 40px;
+.card {
+	margin: 40px 0px 0px 0px;
 }
 
-.page_button{
-	margin-top: 20px;
+.card-parameters {
+    margin: 15px 20% 0px 20%;
+}
+
+.page-button {
+	margin: 20px 0px 0px 0px;
 }
 
 .alert {
     padding: 10px;
     background-color: #9d9d9d;
     color: white;
+    margin:0px 30% 0px 30%;
 }
 
 .closebtn {
-    margin-left: 15px;
+    margin: 0px 0px 0px 15px;
     color: white;
     font-weight: bold;
     float: right;
@@ -32,4 +35,11 @@
 
 .closebtn:hover {
     color: black;
+}
+
+img{
+    width:80%;
+    outline: 5px solid black;
+    height:auto;
+    margin: 0px 0px 15px 0px;
 }
