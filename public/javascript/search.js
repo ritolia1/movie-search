@@ -39,19 +39,21 @@ function action() {
     var obj=(JSON.parse(response));
     console.log(obj);
     for(var i=0;i<obj.results.length;i++){
-      searchResultHTML+="<div class=\"row\">"+
-      "<div class=\"col-sm-6\" style=\"margin-left:25%;border:1px blue\" id="+obj.results[i].original_title.replace(/[\s]/g, '+')+" onClick=\"reply_click(this.id)\" >"+
+      searchResultHTML+="<div class=\"row\" style=\"margin-left:20%;margin-right:20%;margin-top:15px\">"+
+      "<div style=\"width=100%\" id="+obj.results[i].original_title.replace(/[\s]/g, '+')+" onClick=\"reply_click(this.id)\" >"+
       "<div class=\"col-sm-3\">"+
-      "<img style=\"width:100%;outline: 5px solid black;\" src=\"http://image.tmdb.org/t/p/w500/"+obj.results[i].poster_path+"class=\"doc_avatar\" >"+
+      "<center>"+
+      "<img style=\"width:80%;outline: 5px solid black;height=auto;margin-bottom:15px\" src=\"http://image.tmdb.org/t/p/w500/"+obj.results[i].poster_path+"class=\"doc_avatar\" >"+
+      "</center>"+
       "</div>"+
       "<div class=\"col-sm-9\">"+
-      "<table class=\"table table-striped table-responsive\" style=\"float:right\">"+
+      "<table class=\"table table-striped table-responsive\">"+
       "<tbody>"+
       "<tr>"+
       "<td>Original Title:</td>"+
       "<td>"+obj.results[i].original_title+"</td>"+
       "</tr>"+
-      
+
       "<tr>"+
       "<td>Original_language</td>"+
       "<td>"+obj.results[i].original_language+"</td>"+

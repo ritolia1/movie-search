@@ -1,10 +1,16 @@
 .image_bar{
 	margin-top: 20px;
-	margin-left: 30%;
-	width: 100%;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
 }
 
 .text-area{
-	margin-left:25%;
-	margin-right:25%;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }
