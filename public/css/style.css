@@ -6,13 +6,14 @@
 }
 
 #card{
-	margin-top: 5%;
+	margin-top: 40px;
+}
 
-    .page_button{
-       margin-top: 20px;
-   }
+.page_button{
+	margin-top: 20px;
+}
 
-   .alert {
+.alert {
     padding: 10px;
     background-color: #9d9d9d;
     color: white;

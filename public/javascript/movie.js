@@ -20,28 +20,28 @@
          imageSearchResult+="<img src=\"http://image.tmdb.org/t/p/w500/"+obj.results[0].backdrop_path+"\" style=\"outline: 5px solid black;\">";
          $(".image_bar").html(imageSearchResult);
 
-         textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+         textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
          "<div class=\"panel-heading\">Title</div>"+
          "<div class=\"panel-body\">"+
          obj.results[0].original_title+
          "</div>"+
          "</div>";
 
-         textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+         textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
          "<div class=\"panel-heading\">Popularity</div>"+
          "<div class=\"panel-body\">"+
          obj.results[0].popularity+
          "</div>"+
          "</div>";
 
-         textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+         textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
          "<div class=\"panel-heading\">Overview</div>"+
          "<div class=\"panel-body\">"+
          obj.results[0].overview+
          "</div>"+
          "</div>";
          
-         textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+         textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
          "<div class=\"panel-heading\">Release Date</div>"+
          "<div class=\"panel-body\">"+
          obj.results[0].release_date+
@@ -51,33 +51,33 @@
          $.getJSON(imdbLink, function(imdbresponse) {
           var imdbobj=(JSON.parse(imdbresponse));
           console.log(imdbobj);
-          textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+          textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
           "<div class=\"panel-heading\">Genre</div>"+
           "<div class=\"panel-body\">"+
           imdbobj.Genre+
           "</div>"+
           "</div>";
 
-          textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+          textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
           "<div class=\"panel-heading\">Actors</div>"+
           "<div class=\"panel-body\">"+
           imdbobj.Actors+
           "</div>"+
           "</div>";
 
-          textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+          textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
           "<div class=\"panel-heading\">ImdbRating</div>"+
           "<div class=\"panel-body\">"+
           imdbobj.imdbRating+
           "</div>"+
           "</div>";
-          textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+          textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
           "<div class=\"panel-heading\">ImdbVotes</div>"+
           "<div class=\"panel-body\">"+
           imdbobj.imdbVotes+
           "</div>"+
           "</div>";
-          textAreaSearchResut+="<div class=\"panel panel-primary\" style=\"margin-top:20px\">"+
+          textAreaSearchResut+="<div class=\"panel panel-primary spacing\" >"+
           "<div class=\"panel-heading\">Language</div>"+
           "<div class=\"panel-body\">"+
           imdbobj.Language+
